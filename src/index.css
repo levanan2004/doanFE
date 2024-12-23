@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-fluid {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.navbar-brand {
+  font-size: 2rem !important;
+  /* Thay đổi kích thước chữ */
+  font-weight: 500;
+  color: #39FF14 !important;
+}
+
+
+/* App.css */
+.navbar .nav-item.active .nav-link {
+  /* Màu nền khi active */
+  color: #e69c47;
+  /* Độ đậm*/
+  font-weight: 500;
+  /* Màu chữ khi active */
+  border-radius: 5px;
+  /* Tùy chọn: thêm bo góc cho các liên kết active */
+}
+
+.navbar .nav-item.active .nav-link:hover {
+  background-color: #fff;
+  /* Màu nền khi hover */
+  color: #000;
+  /* Màu chữ khi hover */
+}
+
+.card-img-top {
+  width: 100%;
+  /* Đảm bảo ảnh phủ đầy chiều ngang thẻ */
+  height: 200px;
+  /* Chiều cao cố định */
+  object-fit: cover;
+  /* Cắt ảnh để giữ tỷ lệ và phù hợp với khung */
+  border-radius: 5px;
+  /* Tuỳ chọn: bo góc */
+}
